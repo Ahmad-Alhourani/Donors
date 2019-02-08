@@ -16,4 +16,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+//start_Country_start
+Route::resource('country', 'API\CountryAPIController');
+
+//end_Country_end
+
 //*****Do Not Delete Me

@@ -10,6 +10,12 @@
             </li>
 
 
+        {{--start_Country_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/countries')) }}" href=" {{ route('admin.country.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.countries') }}</a>
+            </li>
+            {{--end_Country_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">
