@@ -200,8 +200,15 @@ return [
                 'id' => "Id",
                 'name' => "Name",
                 'code' => "Code"
-            ]
+            ],
             //end_Country_end
+            //start_City_start
+            'cities' => [
+                'id' => "Id",
+                'country_id' => "Country",
+                'name' => "Name"
+            ]
+            //end_City_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

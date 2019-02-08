@@ -49,8 +49,16 @@ return [
             'saved' => 'Country saved successfully.',
             'updated' => 'Country updated successfully.',
             'deleted' => 'Country deleted successfully.'
-        ]
+        ],
         //end_Country_end
+
+        //start_City_start
+        'city' => [
+            'saved' => 'City saved successfully.',
+            'updated' => 'City updated successfully.',
+            'deleted' => 'City deleted successfully.'
+        ]
+        //end_City_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

@@ -49,8 +49,11 @@ return [
             'system' => 'System',
 
             //begin_Country_begin
-            'countries' => 'Countries'
+            'countries' => 'Countries',
             //finish_Country_finish
+            //begin_City_begin
+            'cities' => 'Cities'
+            //finish_City_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -62,8 +65,19 @@ return [
             'edit' => 'Edit Country',
             'management' => 'Country Management',
             'main' => 'Countries'
-        ]
+        ],
         //end_Country_end
+
+        //start_City_start
+        'cities' => [
+            'view' => 'View City',
+            'all' => 'All Cities',
+            'create' => 'Create City',
+            'edit' => 'Edit City',
+            'management' => 'City Management',
+            'main' => 'Cities'
+        ]
+        //end_City_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

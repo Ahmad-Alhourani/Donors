@@ -134,8 +134,31 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_Country_end
+
+        //start_City_start
+        'cities' => [
+            'management' => 'Cities Management',
+            'create' => 'Create City',
+            'view' => 'View City',
+            'edit' => 'Edit City',
+
+            'table' => [
+                'id' => "Id",
+                'country_id' => "Country",
+                'name' => "Name",
+                'sort' => 'Sort',
+                'total' => 'Cities total|Cities total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_City_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

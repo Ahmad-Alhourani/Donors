@@ -21,4 +21,9 @@ Route::resource('country', 'API\CountryAPIController');
 
 //end_Country_end
 
+//start_City_start
+Route::resource('city', 'API\CityAPIController');
+
+//end_City_end
+
 //*****Do Not Delete Me

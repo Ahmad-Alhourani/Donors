@@ -16,6 +16,12 @@
             </li>
             {{--end_Country_end--}}
 
+        {{--start_City_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/cities')) }}" href=" {{ route('admin.city.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.cities') }}</a>
+            </li>
+            {{--end_City_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">
