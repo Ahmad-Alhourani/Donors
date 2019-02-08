@@ -65,8 +65,16 @@ return [
             'saved' => 'Orphan saved successfully.',
             'updated' => 'Orphan updated successfully.',
             'deleted' => 'Orphan deleted successfully.'
-        ]
+        ],
         //end_Orphan_end
+
+        //start_DonorType_start
+        'donor_type' => [
+            'saved' => 'DonorType saved successfully.',
+            'updated' => 'DonorType updated successfully.',
+            'deleted' => 'DonorType deleted successfully.'
+        ]
+        //end_DonorType_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

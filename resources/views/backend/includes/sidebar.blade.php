@@ -28,6 +28,12 @@
             </li>
             {{--end_Orphan_end--}}
 
+        {{--start_DonorType_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/donor_types')) }}" href=" {{ route('admin.donor_type.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.donor_types') }}</a>
+            </li>
+            {{--end_DonorType_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">
