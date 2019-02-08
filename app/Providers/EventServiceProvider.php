@@ -56,8 +56,12 @@ class EventServiceProvider extends ServiceProvider
         //end_Orphan_end
 
         //start_DonorType_start
-        \App\Listeners\Backend\DonorTypeEventListener::class
+        \App\Listeners\Backend\DonorTypeEventListener::class,
         //end_DonorType_end
+
+        //start_Fundraising_start
+        \App\Listeners\Backend\FundraisingEventListener::class
+        //end_Fundraising_end
 
         // Do not delete me :) I'm used for auto-generation
     ];

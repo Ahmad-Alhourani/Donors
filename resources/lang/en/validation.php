@@ -223,8 +223,16 @@ return [
                 'id' => "Id",
                 'name' => "Name",
                 'details' => "Details"
-            ]
+            ],
             //end_DonorType_end
+            //start_Fundraising_start
+            'fundraisings' => [
+                'id' => "Id",
+                'name' => "Name",
+                'founded_at' => "Date",
+                'description' => "Description"
+            ]
+            //end_Fundraising_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

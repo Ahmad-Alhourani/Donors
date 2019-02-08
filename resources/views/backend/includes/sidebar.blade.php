@@ -34,6 +34,12 @@
             </li>
             {{--end_DonorType_end--}}
 
+        {{--start_Fundraising_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/fundraisings')) }}" href=" {{ route('admin.fundraising.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.fundraisings') }}</a>
+            </li>
+            {{--end_Fundraising_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

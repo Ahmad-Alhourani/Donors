@@ -205,8 +205,32 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_DonorType_end
+
+        //start_Fundraising_start
+        'fundraisings' => [
+            'management' => 'Fundraising Management',
+            'create' => 'Create Fundraising',
+            'view' => 'View Fundraising',
+            'edit' => 'Edit Fundraising',
+
+            'table' => [
+                'id' => "Id",
+                'name' => "Name",
+                'founded_at' => "Date",
+                'description' => "Description",
+                'sort' => 'Sort',
+                'total' => 'Fundraising total|Fundraising total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_Fundraising_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

@@ -73,8 +73,16 @@ return [
             'saved' => 'DonorType saved successfully.',
             'updated' => 'DonorType updated successfully.',
             'deleted' => 'DonorType deleted successfully.'
-        ]
+        ],
         //end_DonorType_end
+
+        //start_Fundraising_start
+        'fundraising' => [
+            'saved' => 'Fundraising saved successfully.',
+            'updated' => 'Fundraising updated successfully.',
+            'deleted' => 'Fundraising deleted successfully.'
+        ]
+        //end_Fundraising_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

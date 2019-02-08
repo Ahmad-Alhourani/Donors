@@ -36,4 +36,9 @@ Route::resource('donor_type', 'API\DonorTypeAPIController');
 
 //end_DonorType_end
 
+//start_Fundraising_start
+Route::resource('fundraising', 'API\FundraisingAPIController');
+
+//end_Fundraising_end
+
 //*****Do Not Delete Me
