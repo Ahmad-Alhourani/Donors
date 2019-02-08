@@ -39,6 +39,11 @@ return [
             'title' => 'Countries'
         ],
         //end_Country_end
+        //start_City_start
+        'cities' => [
+            'title' => 'Cities'
+        ],
+        //end_City_end
         // Do not delete me :) I'm used for auto-generation
 
         'general' => [
