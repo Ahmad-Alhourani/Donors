@@ -75,6 +75,40 @@ Breadcrumbs::register('admin.city.edit', function ($breadcrumbs, $id) {
 });
 //end_City_end
 
+//start_Orphan_start
+Breadcrumbs::register('admin.orphan.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.orphans.title'),
+        route('admin.orphan.index')
+    );
+});
+
+Breadcrumbs::register('admin.orphan.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.orphan.index');
+    $breadcrumbs->push(
+        __('labels.backend.orphans.create'),
+        route('admin.orphan.create')
+    );
+});
+
+Breadcrumbs::register('admin.orphan.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.orphan.index');
+    $breadcrumbs->push(
+        __('menus.backend.orphans.view'),
+        route('admin.orphan.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.orphan.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.orphan.index');
+    $breadcrumbs->push(
+        __('menus.backend.orphans.edit'),
+        route('admin.orphan.edit', $id)
+    );
+});
+//end_Orphan_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

@@ -22,6 +22,12 @@
             </li>
             {{--end_City_end--}}
 
+        {{--start_Orphan_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/orphans')) }}" href=" {{ route('admin.orphan.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.orphans') }}</a>
+            </li>
+            {{--end_Orphan_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

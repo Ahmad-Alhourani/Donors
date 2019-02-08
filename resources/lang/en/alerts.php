@@ -57,8 +57,16 @@ return [
             'saved' => 'City saved successfully.',
             'updated' => 'City updated successfully.',
             'deleted' => 'City deleted successfully.'
-        ]
+        ],
         //end_City_end
+
+        //start_Orphan_start
+        'orphan' => [
+            'saved' => 'Orphan saved successfully.',
+            'updated' => 'Orphan updated successfully.',
+            'deleted' => 'Orphan deleted successfully.'
+        ]
+        //end_Orphan_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

@@ -44,6 +44,11 @@ return [
             'title' => 'Cities'
         ],
         //end_City_end
+        //start_Orphan_start
+        'orphans' => [
+            'title' => 'Orphans'
+        ],
+        //end_Orphan_end
         // Do not delete me :) I'm used for auto-generation
 
         'general' => [
