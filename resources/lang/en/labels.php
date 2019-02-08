@@ -260,8 +260,32 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_Donor_end
+
+        //start_Donation_start
+        'donations' => [
+            'management' => 'Donations Management',
+            'create' => 'Create Donation',
+            'view' => 'View Donation',
+            'edit' => 'Edit Donation',
+
+            'table' => [
+                'id' => "Id",
+                'donor_id' => "Donor",
+                'fundraising_id' => "Fundraising Name",
+                'value' => "Value",
+                'sort' => 'Sort',
+                'total' => 'Donations total|Donations total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_Donation_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

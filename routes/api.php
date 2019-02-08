@@ -46,4 +46,9 @@ Route::resource('donor', 'API\DonorAPIController');
 
 //end_Donor_end
 
+//start_Donation_start
+Route::resource('donation', 'API\DonationAPIController');
+
+//end_Donation_end
+
 //*****Do Not Delete Me

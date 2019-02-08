@@ -246,8 +246,16 @@ return [
                 'phone2' => "Phone Number 2",
                 'is_orphan' => "Is Orphan?",
                 'notes' => "Notes"
-            ]
+            ],
             //end_Donor_end
+            //start_Donation_start
+            'donations' => [
+                'id' => "Id",
+                'donor_id' => "Donor",
+                'fundraising_id' => "Fundraising Name",
+                'value' => "Value"
+            ]
+            //end_Donation_end
             // Do not delete me :) I'm used for auto-generation
         ],
 
