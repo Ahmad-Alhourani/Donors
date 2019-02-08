@@ -211,6 +211,40 @@ Breadcrumbs::register('admin.donor.edit', function ($breadcrumbs, $id) {
 });
 //end_Donor_end
 
+//start_Donation_start
+Breadcrumbs::register('admin.donation.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.donations.title'),
+        route('admin.donation.index')
+    );
+});
+
+Breadcrumbs::register('admin.donation.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.donation.index');
+    $breadcrumbs->push(
+        __('labels.backend.donations.create'),
+        route('admin.donation.create')
+    );
+});
+
+Breadcrumbs::register('admin.donation.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.donation.index');
+    $breadcrumbs->push(
+        __('menus.backend.donations.view'),
+        route('admin.donation.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.donation.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.donation.index');
+    $breadcrumbs->push(
+        __('menus.backend.donations.edit'),
+        route('admin.donation.edit', $id)
+    );
+});
+//end_Donation_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

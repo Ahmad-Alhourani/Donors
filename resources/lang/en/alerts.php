@@ -89,8 +89,16 @@ return [
             'saved' => 'Donor saved successfully.',
             'updated' => 'Donor updated successfully.',
             'deleted' => 'Donor deleted successfully.'
-        ]
+        ],
         //end_Donor_end
+
+        //start_Donation_start
+        'donation' => [
+            'saved' => 'Donation saved successfully.',
+            'updated' => 'Donation updated successfully.',
+            'deleted' => 'Donation deleted successfully.'
+        ]
+        //end_Donation_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

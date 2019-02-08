@@ -64,6 +64,11 @@ return [
             'title' => 'Donors'
         ],
         //end_Donor_end
+        //start_Donation_start
+        'donations' => [
+            'title' => 'Donations'
+        ],
+        //end_Donation_end
         // Do not delete me :) I'm used for auto-generation
 
         'general' => [
