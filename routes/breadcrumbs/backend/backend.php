@@ -245,6 +245,50 @@ Breadcrumbs::register('admin.donation.edit', function ($breadcrumbs, $id) {
 });
 //end_Donation_end
 
+//start_OrphanSponsorship_start
+Breadcrumbs::register('admin.orphan_sponsorship.index', function (
+    $breadcrumbs
+) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.orphan_sponsorships.title'),
+        route('admin.orphan_sponsorship.index')
+    );
+});
+
+Breadcrumbs::register('admin.orphan_sponsorship.create', function (
+    $breadcrumbs
+) {
+    $breadcrumbs->parent('admin.orphan_sponsorship.index');
+    $breadcrumbs->push(
+        __('labels.backend.orphan_sponsorships.create'),
+        route('admin.orphan_sponsorship.create')
+    );
+});
+
+Breadcrumbs::register('admin.orphan_sponsorship.show', function (
+    $breadcrumbs,
+    $id
+) {
+    $breadcrumbs->parent('admin.orphan_sponsorship.index');
+    $breadcrumbs->push(
+        __('menus.backend.orphan_sponsorships.view'),
+        route('admin.orphan_sponsorship.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.orphan_sponsorship.edit', function (
+    $breadcrumbs,
+    $id
+) {
+    $breadcrumbs->parent('admin.orphan_sponsorship.index');
+    $breadcrumbs->push(
+        __('menus.backend.orphan_sponsorships.edit'),
+        route('admin.orphan_sponsorship.edit', $id)
+    );
+});
+//end_OrphanSponsorship_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';

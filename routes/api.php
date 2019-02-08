@@ -51,4 +51,9 @@ Route::resource('donation', 'API\DonationAPIController');
 
 //end_Donation_end
 
+//start_OrphanSponsorship_start
+Route::resource('orphan_sponsorship', 'API\OrphanSponsorshipAPIController');
+
+//end_OrphanSponsorship_end
+
 //*****Do Not Delete Me

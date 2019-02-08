@@ -52,6 +52,12 @@
             </li>
             {{--end_Donation_end--}}
 
+        {{--start_OrphanSponsorship_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/orphan_sponsorships')) }}" href=" {{ route('admin.orphan_sponsorship.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.orphan_sponsorships') }}</a>
+            </li>
+            {{--end_OrphanSponsorship_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

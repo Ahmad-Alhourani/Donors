@@ -97,8 +97,16 @@ return [
             'saved' => 'Donation saved successfully.',
             'updated' => 'Donation updated successfully.',
             'deleted' => 'Donation deleted successfully.'
-        ]
+        ],
         //end_Donation_end
+
+        //start_OrphanSponsorship_start
+        'orphan_sponsorship' => [
+            'saved' => 'OrphanSponsorship saved successfully.',
+            'updated' => 'OrphanSponsorship updated successfully.',
+            'deleted' => 'OrphanSponsorship deleted successfully.'
+        ]
+        //end_OrphanSponsorship_end
 
         // Do not delete me :) I'm used for auto-generation
     ]
