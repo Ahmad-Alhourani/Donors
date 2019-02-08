@@ -31,4 +31,9 @@ Route::resource('orphan', 'API\OrphanAPIController');
 
 //end_Orphan_end
 
+//start_DonorType_start
+Route::resource('donor_type', 'API\DonorTypeAPIController');
+
+//end_DonorType_end
+
 //*****Do Not Delete Me

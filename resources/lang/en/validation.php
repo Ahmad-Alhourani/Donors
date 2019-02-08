@@ -216,8 +216,15 @@ return [
                 'f_name' => "Father Name",
                 'm_name' => "Mother Name",
                 'description' => "Description"
-            ]
+            ],
             //end_Orphan_end
+            //start_DonorType_start
+            'donor_types' => [
+                'id' => "Id",
+                'name' => "Name",
+                'details' => "Details"
+            ]
+            //end_DonorType_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

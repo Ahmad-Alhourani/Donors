@@ -55,8 +55,11 @@ return [
             'cities' => 'Cities',
             //finish_City_finish
             //begin_Orphan_begin
-            'orphans' => 'Orphans'
+            'orphans' => 'Orphans',
             //finish_Orphan_finish
+            //begin_DonorType_begin
+            'donor_types' => 'Donor Types'
+            //finish_DonorType_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -90,8 +93,19 @@ return [
             'edit' => 'Edit Orphan',
             'management' => 'Orphan Management',
             'main' => 'Orphans'
-        ]
+        ],
         //end_Orphan_end
+
+        //start_DonorType_start
+        'donor_types' => [
+            'view' => 'View DonorType',
+            'all' => 'All Donor Types',
+            'create' => 'Create DonorType',
+            'edit' => 'Edit DonorType',
+            'management' => 'DonorType Management',
+            'main' => 'Donor Types'
+        ]
+        //end_DonorType_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

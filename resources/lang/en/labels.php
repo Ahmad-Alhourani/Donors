@@ -182,8 +182,31 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_Orphan_end
+
+        //start_DonorType_start
+        'donor_types' => [
+            'management' => 'Donor Types Management',
+            'create' => 'Create DonorType',
+            'view' => 'View DonorType',
+            'edit' => 'Edit DonorType',
+
+            'table' => [
+                'id' => "Id",
+                'name' => "Name",
+                'details' => "Details",
+                'sort' => 'Sort',
+                'total' => 'Donor Types total|Donor Types total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_DonorType_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

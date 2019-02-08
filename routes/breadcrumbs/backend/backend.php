@@ -109,6 +109,40 @@ Breadcrumbs::register('admin.orphan.edit', function ($breadcrumbs, $id) {
 });
 //end_Orphan_end
 
+//start_DonorType_start
+Breadcrumbs::register('admin.donor_type.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.donor_types.title'),
+        route('admin.donor_type.index')
+    );
+});
+
+Breadcrumbs::register('admin.donor_type.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.donor_type.index');
+    $breadcrumbs->push(
+        __('labels.backend.donor_types.create'),
+        route('admin.donor_type.create')
+    );
+});
+
+Breadcrumbs::register('admin.donor_type.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.donor_type.index');
+    $breadcrumbs->push(
+        __('menus.backend.donor_types.view'),
+        route('admin.donor_type.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.donor_type.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.donor_type.index');
+    $breadcrumbs->push(
+        __('menus.backend.donor_types.edit'),
+        route('admin.donor_type.edit', $id)
+    );
+});
+//end_DonorType_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';
