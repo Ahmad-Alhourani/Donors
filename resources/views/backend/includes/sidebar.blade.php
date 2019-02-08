@@ -10,6 +10,54 @@
             </li>
 
 
+        {{--start_Country_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/countries')) }}" href=" {{ route('admin.country.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.countries') }}</a>
+            </li>
+            {{--end_Country_end--}}
+
+        {{--start_City_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/cities')) }}" href=" {{ route('admin.city.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.cities') }}</a>
+            </li>
+            {{--end_City_end--}}
+
+        {{--start_Orphan_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/orphans')) }}" href=" {{ route('admin.orphan.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.orphans') }}</a>
+            </li>
+            {{--end_Orphan_end--}}
+
+        {{--start_DonorType_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/donor_types')) }}" href=" {{ route('admin.donor_type.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.donor_types') }}</a>
+            </li>
+            {{--end_DonorType_end--}}
+
+        {{--start_Fundraising_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/fundraisings')) }}" href=" {{ route('admin.fundraising.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.fundraisings') }}</a>
+            </li>
+            {{--end_Fundraising_end--}}
+
+        {{--start_Donor_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/donors')) }}" href=" {{ route('admin.donor.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.donors') }}</a>
+            </li>
+            {{--end_Donor_end--}}
+
+        {{--start_Donation_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/donations')) }}" href=" {{ route('admin.donation.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.donations') }}</a>
+            </li>
+            {{--end_Donation_end--}}
+
+        {{--start_OrphanSponsorship_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/orphan_sponsorships')) }}" href=" {{ route('admin.orphan_sponsorship.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.orphan_sponsorships') }}</a>
+            </li>
+            {{--end_OrphanSponsorship_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">
