@@ -254,8 +254,19 @@ return [
                 'donor_id' => "Donor",
                 'fundraising_id' => "Fundraising Name",
                 'value' => "Value"
-            ]
+            ],
             //end_Donation_end
+            //start_OrphanSponsorship_start
+            'orphan_sponsorships' => [
+                'id' => "Id",
+                'donor_id' => "Donor",
+                'orphan_id' => "Orphan Name",
+                'value' => "Value",
+                'start_date' => "Start Date",
+                'expected_date' => "Expected Date",
+                'end_date' => "End Date"
+            ]
+            //end_OrphanSponsorship_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

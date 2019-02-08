@@ -284,8 +284,35 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_Donation_end
+
+        //start_OrphanSponsorship_start
+        'orphan_sponsorships' => [
+            'management' => 'Orphan Sponsorships Management',
+            'create' => 'Create OrphanSponsorship',
+            'view' => 'View OrphanSponsorship',
+            'edit' => 'Edit OrphanSponsorship',
+
+            'table' => [
+                'id' => "Id",
+                'donor_id' => "Donor",
+                'orphan_id' => "Orphan Name",
+                'value' => "Value",
+                'start_date' => "Start Date",
+                'expected_date' => "Expected Date",
+                'end_date' => "End Date",
+                'sort' => 'Sort',
+                'total' => 'Orphan Sponsorships total|Orphan Sponsorships total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_OrphanSponsorship_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

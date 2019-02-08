@@ -67,8 +67,11 @@ return [
             'donors' => 'Donors',
             //finish_Donor_finish
             //begin_Donation_begin
-            'donations' => 'Donations'
+            'donations' => 'Donations',
             //finish_Donation_finish
+            //begin_OrphanSponsorship_begin
+            'orphan_sponsorships' => 'Orphan Sponsorships'
+            //finish_OrphanSponsorship_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -146,8 +149,19 @@ return [
             'edit' => 'Edit Donation',
             'management' => 'Donation Management',
             'main' => 'Donations'
-        ]
+        ],
         //end_Donation_end
+
+        //start_OrphanSponsorship_start
+        'orphan_sponsorships' => [
+            'view' => 'View OrphanSponsorship',
+            'all' => 'All Orphan Sponsorships',
+            'create' => 'Create OrphanSponsorship',
+            'edit' => 'Edit OrphanSponsorship',
+            'management' => 'OrphanSponsorship Management',
+            'main' => 'Orphan Sponsorships'
+        ]
+        //end_OrphanSponsorship_end
 
         // Do not delete me :) I'm used for auto-generation
     ],
