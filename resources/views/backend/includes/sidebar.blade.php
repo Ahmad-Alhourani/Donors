@@ -40,6 +40,12 @@
             </li>
             {{--end_Fundraising_end--}}
 
+        {{--start_Donor_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/donors')) }}" href=" {{ route('admin.donor.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.donors') }}</a>
+            </li>
+            {{--end_Donor_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

@@ -229,8 +229,39 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_Fundraising_end
+
+        //start_Donor_start
+        'donors' => [
+            'management' => 'Donors Management',
+            'create' => 'Create Donor',
+            'view' => 'View Donor',
+            'edit' => 'Edit Donor',
+
+            'table' => [
+                'id' => "Id",
+                'image' => "Photo",
+                'name' => "First Name",
+                'l_name' => "Last Name",
+                'address' => "Address",
+                'city_id' => "City",
+                'mobile' => "Mobile",
+                'phone1' => "Phone Number 1",
+                'phone2' => "Phone Number 2",
+                'is_orphan' => "Is Orphan?",
+                'notes' => "Notes",
+                'sort' => 'Sort',
+                'total' => 'Donors total|Donors total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_Donor_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

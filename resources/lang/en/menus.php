@@ -61,8 +61,11 @@ return [
             'donor_types' => 'Donor Types',
             //finish_DonorType_finish
             //begin_Fundraising_begin
-            'fundraisings' => 'Fundraising'
+            'fundraisings' => 'Fundraising',
             //finish_Fundraising_finish
+            //begin_Donor_begin
+            'donors' => 'Donors'
+            //finish_Donor_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -118,8 +121,19 @@ return [
             'edit' => 'Edit Fundraising',
             'management' => 'Fundraising Management',
             'main' => 'Fundraising'
-        ]
+        ],
         //end_Fundraising_end
+
+        //start_Donor_start
+        'donors' => [
+            'view' => 'View Donor',
+            'all' => 'All Donors',
+            'create' => 'Create Donor',
+            'edit' => 'Edit Donor',
+            'management' => 'Donor Management',
+            'main' => 'Donors'
+        ]
+        //end_Donor_end
 
         // Do not delete me :) I'm used for auto-generation
     ],
