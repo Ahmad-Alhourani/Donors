@@ -231,8 +231,23 @@ return [
                 'name' => "Name",
                 'founded_at' => "Date",
                 'description' => "Description"
-            ]
+            ],
             //end_Fundraising_end
+            //start_Donor_start
+            'donors' => [
+                'id' => "Id",
+                'image' => "Photo",
+                'name' => "First Name",
+                'l_name' => "Last Name",
+                'address' => "Address",
+                'city_id' => "City",
+                'mobile' => "Mobile",
+                'phone1' => "Phone Number 1",
+                'phone2' => "Phone Number 2",
+                'is_orphan' => "Is Orphan?",
+                'notes' => "Notes"
+            ]
+            //end_Donor_end
             // Do not delete me :) I'm used for auto-generation
         ],
 
