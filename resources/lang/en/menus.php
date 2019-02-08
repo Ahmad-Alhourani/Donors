@@ -52,8 +52,11 @@ return [
             'countries' => 'Countries',
             //finish_Country_finish
             //begin_City_begin
-            'cities' => 'Cities'
+            'cities' => 'Cities',
             //finish_City_finish
+            //begin_Orphan_begin
+            'orphans' => 'Orphans'
+            //finish_Orphan_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -76,8 +79,19 @@ return [
             'edit' => 'Edit City',
             'management' => 'City Management',
             'main' => 'Cities'
-        ]
+        ],
         //end_City_end
+
+        //start_Orphan_start
+        'orphans' => [
+            'view' => 'View Orphan',
+            'all' => 'All Orphans',
+            'create' => 'Create Orphan',
+            'edit' => 'Edit Orphan',
+            'management' => 'Orphan Management',
+            'main' => 'Orphans'
+        ]
+        //end_Orphan_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

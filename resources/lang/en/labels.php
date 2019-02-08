@@ -157,8 +157,33 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_City_end
+
+        //start_Orphan_start
+        'orphans' => [
+            'management' => 'Orphans Management',
+            'create' => 'Create Orphan',
+            'view' => 'View Orphan',
+            'edit' => 'Edit Orphan',
+
+            'table' => [
+                'id' => "Id",
+                'name' => "Name",
+                'f_name' => "Father Name",
+                'm_name' => "Mother Name",
+                'description' => "Description",
+                'sort' => 'Sort',
+                'total' => 'Orphans total|Orphans total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_Orphan_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

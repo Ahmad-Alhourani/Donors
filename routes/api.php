@@ -26,4 +26,9 @@ Route::resource('city', 'API\CityAPIController');
 
 //end_City_end
 
+//start_Orphan_start
+Route::resource('orphan', 'API\OrphanAPIController');
+
+//end_Orphan_end
+
 //*****Do Not Delete Me

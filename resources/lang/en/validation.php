@@ -207,8 +207,17 @@ return [
                 'id' => "Id",
                 'country_id' => "Country",
                 'name' => "Name"
-            ]
+            ],
             //end_City_end
+            //start_Orphan_start
+            'orphans' => [
+                'id' => "Id",
+                'name' => "Name",
+                'f_name' => "Father Name",
+                'm_name' => "Mother Name",
+                'description' => "Description"
+            ]
+            //end_Orphan_end
             // Do not delete me :) I'm used for auto-generation
         ],
 
